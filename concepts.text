@@ -1,0 +1,36 @@
+1:
+URL: Uniform Resouce Locator
+  Protocal - HTTP/HTTPS
+  Domain
+https://www.google.com
+
+ftp, wss difderent protocals
+
+Client
+Request - Network (URL) - Server (Response)
+
+DOM - Document Object Modal - Tree formation thats donen using HTML elem's
+HTML Tags (heading, paragraph, div, ordered list, unordered list, Anchor tag)
+Basic DOM construction using Hello World Example
+Browser Working Architecture
+Css styles & Types
+Box Modal
+
+
+DOM Model
+
+      HTML
+    head      body
+    title  h1 h5 p div   ul  hr img a 
+                    span li
+
+
+Css
+div{
+  background: yellow
+}
+
+Dom vs Render Tree
+(display: none; visibility:hidden)
+DOM tree has all the elemnts that are present in your HTML documents
+Render tree: div has visibily as hidden then its not a part of Render tree

@@ -1,0 +1,18 @@
+/* Specivity - Priority */
+.heading1 {
+  color: blue;
+}
+
+.heading1 {
+  color: brown;
+}
+
+.btn_boxModal {
+  width: 300px;
+  height: 40px;
+  padding: 5px;
+  border: 10px solid red;
+  /* margin: 15px; */
+  margin: 5px 15px;
+  /* box-sizing: border-box; */
+}
