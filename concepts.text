@@ -33,4 +33,25 @@ div{
 Dom vs Render Tree
 (display: none; visibility:hidden)
 DOM tree has all the elemnts that are present in your HTML documents
-Render tree: div has visibily as hidden then its not a part of Render tree
+Render tree: If a div element has "visibily: hidden" then its not a part of Render tree
+
+Day 2: Advanced Css
+
+  Semantic Elements: header, footer, main...etc
+  Display: block, inline, inline-block , flex, 
+  Position property: Static(default), absolute, fixed, Relative, sticky
+  Z-index
+  Box-sizing: content-type and border-box
+  Border-box:
+    width: 40px
+      padding: 10px
+      border:10px
+      Element Height: width - padding - border => 20px
+  content-type:
+    width: 40px
+    padding: 10px
+    border: 15px
+    total width = width + padding + border = 90px width
+  Media-queries
+  Create a Form - Input, Radio, Select, Checkbox, Button
+

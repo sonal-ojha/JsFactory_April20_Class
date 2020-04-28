@@ -1,0 +1,117 @@
+body {
+  top: 0;
+  left: 0;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background: rosybrown;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  /* line-height: 12px; vwertical alignment of text */
+}
+
+main {
+  padding: 10px;
+  position: relative;
+}
+
+.spanInline {
+  /* Width and Height does not apply */
+  width: 330px;
+  height: 40px;
+  color: blue;
+  border: 1px solid;
+  background: burlywood;
+}
+
+.spanInlineBlock {
+  display: inline-block;
+  width: 350px;
+  height: 50px;
+  color: brown;
+  border: 1px solid green;
+}
+
+footer {
+  background: blanchedalmond;
+  text-align: center;
+  position: sticky;
+  bottom: 0;
+  height: 30px;
+}
+
+.flex_Conatiner {
+  display: flex;
+  /* Default property: Tells how your child elements of the conatiner are to be aligned */
+  /* justify-content: left; */
+  justify-content: space-around;
+  /* justify-content: space-between; */
+}
+
+button {
+  width: 150px;
+  height: 35px;
+  padding: 5px;
+  margin: 2px;
+  background: grey;
+  color: #ffffff;
+}
+
+.position_container {
+  position: relative;
+}
+
+.text_centre {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  color: red;
+  font-style: italic;
+}
+
+.fixed_btn {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 55px;
+  height: 55px;
+  border-radius: 30px;
+  background: green;
+  color: black;
+  z-index: 101;
+}
+
+.box_sizing {
+  width: 200px;
+  /* box-sizing: content-box; */
+  height: 40px;
+  padding: 10px;
+  border: 10px solid green;
+  color: black;
+}
+/* 
+border-box: 200px
+elemnt width: 200 - 20 - 40 => 140 */
+
+/* Media Queries = used to make the design compatable for all Screen display's */
+@media only screen and (max-width: 700px) {
+  body {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+  }
+}
+
+input {
+  display: block;
+  width: 100px;
+  height: 30px;
+  border: 1px solid #e4e4e4;
+  outline: none;
+  margin: 20px;
+  padding-left: 2px;
+}
