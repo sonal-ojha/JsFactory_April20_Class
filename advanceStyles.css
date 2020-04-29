@@ -115,3 +115,9 @@ input {
   margin: 20px;
   padding-left: 2px;
 }
+
+/* Pseudo classes: Anchor(:visited, :active) */
+.img_hover:hover {
+  /* opacity is used to reduce the brightness of Image as an example. value lies b/w 0-1 */
+  opacity: 0.3;
+}
