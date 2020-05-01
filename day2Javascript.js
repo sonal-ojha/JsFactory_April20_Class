@@ -9,7 +9,7 @@
 //1. callbacks, Promises
 const greet = msg => 'Hello' + msg;
 // const addition = (a, b) => a + b; //syntax for Arrow Fun
-const addition = (a, b) => { return (a+b); } //syntax for Arrow Fun
+const addition = (a, b) => { return (a + b); } //syntax for Arrow Fun
 // console.log(addition(1,2));
 // console.log(greet('World!!!'));
 // this
@@ -111,7 +111,7 @@ const displayTypes = arrayOfObj.map((item, index) => item.type);
 // console.log('Display Types = ', displayTypes);
 
 // Filter
-const evenNums = nums.filter(item => item%2 == 0);
+const evenNums = nums.filter(item => item % 2 == 0);
 // console.log('even nums from array = ', evenNums);
 const displayTypeswithFlower = arrayOfObj.map(item => item.type == 'flower');
 // console.log('Types from array = ', displayTypeswithFlower);
@@ -125,13 +125,13 @@ const fruits = ['apple', 'mango', 'guava', 'pp'];
 // fruits.forEach((item, index) => console.log('Fruit Name is ', item, 'at index ', index));
 
 // Reduce
-const sumOfNums = nums.reduce((a, b)=> a + b);
+const sumOfNums = nums.reduce((a, b) => a + b);
 // console.log(' sum of Nums = ', sumOfNums);
 
 // Spread
 // Its not creating a copy but its creating a reference
 const arr1 = [10, 15];
-const arr2 = arr1; 
+const arr2 = arr1;
 arr1.push(20);
 // console.log('arr1 = ', arr1);
 // console.log('arr2 = ', arr2);
@@ -160,7 +160,7 @@ const names = {
 // console.log('Actual Object Name = ', names);
 
 // using Spread to make a copy of your object. SHALLOW  copy. Not gonna do Deep copy
-const copyObjUsingSpread = {...names};
+const copyObjUsingSpread = { ...names };
 copyObjUsingSpread.first = 'John';
 
 // console.log('Copy Obj Using Spread = ', copyObjUsingSpread);
@@ -174,7 +174,7 @@ copyObjUsingSpread.first = 'John';
 // console.log(getFullNames('John', 'dunkiry', 'Mr', 'Dr', 'Phd', 'Bsc'));
 
 // using Rest operator
-function getFullNames (fname, lname, ...titles) {
+function getFullNames(fname, lname, ...titles) {
   console.log('Titles = ', titles); // combines all Arguments 
   // return fname + lname + titles.join(' ');
   return fname + lname + titles[0];
@@ -211,7 +211,7 @@ const addressObj = {
 
 // Deep Copy/Clone of Objects
 const deepClonedObj = JSON.parse(JSON.stringify(addressObj));
-console.log('Deep Cloned Obj = ', deepClonedObj);
+// console.log('Deep Cloned Obj = ', deepClonedObj);
 deepClonedObj.address.hno = 789;
 // console.log('Deep copies Object = ', deepClonedObj);
 // console.log('Original Object = ', addressObj);

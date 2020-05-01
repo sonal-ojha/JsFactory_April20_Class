@@ -119,11 +119,3 @@ const name1 = addSalutaion('Roy', 'male');
 const name2 = addSalutaion('Srijita', 'female');
 console.log('name of Roy = ', name1);
 console.log('name of Srijita = ', name2);
-
-// Day2
-// Arrays & Objects
-// setTimeOut, setInterval, clearInterval
-// Master Object - Object (Capital O)
-// Class Creation and Object creation. Creating Inheritance using 2 Classes
-// Constructor using Function Expression & creating instances
-// == vs === (Equality Checks)

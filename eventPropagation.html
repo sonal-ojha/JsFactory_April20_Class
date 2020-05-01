@@ -1,0 +1,30 @@
+<!-- 
+  1.Capturing phase – the event goes down to the element.
+  2.Target phase – the event reached the target element.
+  3.Bubbling phase – the event bubbles up from the element.
+ -->
+<html>
+
+<head>
+  <title>
+    Event Propagation Example
+  </title>
+</head>
+<style>
+  body * {
+    margin: 10px;
+    border: 1px solid blue;
+  }
+</style>
+
+
+<body>
+  <form onclick="alert('form Click event')">FORM
+    <div onclick="alert('div Click event')">DIV
+      <p onclick="event.stopPropagation(); alert('stopped, No Div & Form Alerts!!');">P</p>
+    </div>
+  </form>
+</body>
+
+</html>
+<!-- Stop Prpagation functionality : It does not trigger the Parent events and stopps the Bubbling phase -->
