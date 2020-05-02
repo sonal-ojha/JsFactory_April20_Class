@@ -78,7 +78,7 @@ arrayFromValue(10);
 
 // 8 : Closure Example
 function scoop() {
-  let i;
+  let i;// 3
   for (i = 0; i < 3; i++) {
     const log = () => {
       console.log(i);
